@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styl_1.css">
+</head>
+<body>
+    <div id="baner"><h1>witamy w restauracji Wszystkie smaki swiata</h1></div>
+    <div id="lewy"><img src="menu.jpg" alt="nasze danie"></div>
+    <div id="prawy">
+        <h4>U nas Dobrze zjesz</h4>
+        <ol>
+            <li>Obiady od 40zl</li>
+            <li>Przekaski od 10zl</li>
+            <li>Kolajce od 20zl</li>
+        </ol>
+    </div>
+    <div id="dolny">
+          <h2>zarezerwuj stolik on-line</h2>
+          <form action="rezerwacja.php" method="post">
+            <p><label for="data">wybierz date</label></p>
+            <p><input type="date" name="data" id="data"></p>
+            
+            <p><label for="ilosc">ile osob</label></p>
+            <p><input type="number" name="ilosc" id="ilosc"></p>
+            
+            <p><label for="numer">podaj numer telefonu</label></p>
+            <p><input type="number" name="numer" id="numer"></p>
+            
+           <input type="checkbox" name="zgoda" id="">
+           <label for="zgoda">Zgadzam się na przetwarzanie moich danych osobowych”</label>
+            <button type="reset">CZYSC</button>
+            <button type="submit">REZERWUJ</button>
+
+          </form>
+    </div>
+    <footer>Strone opracowal:000000000</footer>
+</body>
+</html>
